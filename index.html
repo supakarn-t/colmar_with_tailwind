@@ -4,21 +4,26 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="style.css" />
+		<link
+			rel="shortcut icon"
+			href="assets/images/ic-logo.svg"
+			type="image/x-icon"
+		/>
 		<script src="https://cdn.tailwindcss.com"></script>
 		<title>31-vicky-colmar</title>
 	</head>
 	<body class="text-neutral-700">
-		<header class="flex justify-between h-16">
-			<a href="#" class="hidden">
+		<header class="flex justify-between items-center h-16 sm:px-6">
+			<a href="#" class="hidden sm:flex items-center h-8 tracking-wide">
 				<picture>
 					<img src="assets/images/ic-logo.svg" alt="Logo icon" />
 				</picture>
-				<p>COLMAR</p>
-				<p>ACADEMY</p>
+				<p class="text-lg font-bold">COLMAR</p>
+				<p class="text-lg text-neutral-400">ACADEMY</p>
 			</a>
 
 			<nav>
-				<ul class="hidden">
+				<ul class="hidden sm:flex gap-4">
 					<li><a href="#">On campus</a></li>
 					<li><a href="#">Online</a></li>
 					<li><a href="#">For companies</a></li>
@@ -26,7 +31,7 @@
 				</ul>
 			</nav>
 
-			<nav class="sm:hidden flex justify-around items-center w-full">
+			<nav class="sm:hidden flex justify-around w-full">
 				<a href="#">
 					<img class="w-8" src="assets/images/ic-logo.svg" alt="Logo icon" />
 				</a>
@@ -100,9 +105,9 @@
 								alt="Orientation date"
 							/>
 						</picture>
-						<div class="p-4">
+						<div class="flex flex-col p-4 gap-2">
 							<h3 class="text-2xl font-bold">Orientation date</h3>
-							<p class="py-2">Tue 10/11 & Wed 10/12: 8am-3pm</p>
+							<p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
 							<a class="text-sky-600" href="#">Read more</a>
 						</div>
 					</article>
@@ -120,9 +125,9 @@
 								alt="Campus"
 							/>
 						</picture>
-						<div class="p-4">
+						<div class="flex flex-col p-4 gap-2">
 							<h3 class="text-2xl font-bold">Our campus</h3>
-							<p class="py-2">Find which campus is close by you</p>
+							<p>Find which campus is close by you</p>
 							<a class="text-sky-600" href="#">Read more</a>
 						</div>
 					</article>
@@ -140,9 +145,9 @@
 								alt="Guest Lecture"
 							/>
 						</picture>
-						<div class="p-4">
+						<div class="flex flex-col p-4 gap-2">
 							<h3 class="text-2xl font-bold">Our guest lecture</h3>
-							<p class="py-2">
+							<p>
 								Join a keynote with Oliver Sack about music in medical treatment
 							</p>
 							<a class="text-sky-600" href="#">Read more</a>
@@ -152,10 +157,10 @@
 			</section>
 
 			<section class="bg-neutral-100 border-b-2 border-neutral-200 py-8 px-4">
-				<h2 class="text-3xl font-bold text-center pb-2">Start Learning</h2>
+				<h2 class="text-3xl font-bold text-center pb-4">Start Learning</h2>
 
-				<div class="course-all">
-					<article class="mt-2 pt-4 pb-6 px-4 bg-neutral-300">
+				<div class="flex flex-col gap-4">
+					<article class="pt-4 pb-6 px-4 bg-neutral-300">
 						<picture class="hidden">
 							<img
 								src="assets/images/course-software.jpg"
@@ -171,7 +176,7 @@
 						</div>
 					</article>
 
-					<article class="mt-2 pt-4 pb-6 px-4 bg-neutral-300">
+					<article class="pt-4 pb-6 px-4 bg-neutral-300">
 						<picture class="hidden">
 							<img
 								src="assets/images/course-computer-art.jpg"
@@ -188,7 +193,7 @@
 						</div>
 					</article>
 
-					<article class="mt-2 pt-4 pb-6 px-4 bg-neutral-300">
+					<article class="pt-4 pb-6 px-4 bg-neutral-300">
 						<picture class="hidden">
 							<img src="assets/images/course-design.jpg" alt="Design course" />
 						</picture>
@@ -201,7 +206,7 @@
 						</div>
 					</article>
 
-					<article class="mt-2 pt-4 pb-6 px-4 bg-neutral-300">
+					<article class="pt-4 pb-6 px-4 bg-neutral-300">
 						<picture class="hidden">
 							<img src="assets/images/course-data.jpg" alt="Data course" />
 						</picture>
@@ -214,7 +219,7 @@
 						</div>
 					</article>
 
-					<article class="mt-2 pt-4 pb-6 px-4 bg-neutral-300">
+					<article class="pt-4 pb-6 px-4 bg-neutral-300">
 						<picture class="hidden">
 							<img
 								src="assets/images/course-business.jpg"
@@ -230,7 +235,7 @@
 						</div>
 					</article>
 
-					<article class="mt-2 pt-4 pb-6 px-4 bg-neutral-300">
+					<article class="pt-4 pb-6 px-4 bg-neutral-300">
 						<picture class="hidden">
 							<img
 								src="assets/images/course-marketing.jpg"
